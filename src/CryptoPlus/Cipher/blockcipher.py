@@ -545,7 +545,7 @@ class XTS:
         # if (Cout)
         if self.T >> (8 * 16):
             # T[0] ^= GF_128_FDBK;
-            self.T = self.T ^ 0x100000000000000000000000000000087L
+            self.T = self.T ^ 0x100000000000000000000000000000087
 
 
 class CMAC:
