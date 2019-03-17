@@ -1,4 +1,4 @@
-from blockcipher import *
+from .blockcipher import *
 from rijndael import rijndael
 
 def new(key,mode=MODE_ECB,IV=None,counter=None,segment_size=None,blocksize=None):
